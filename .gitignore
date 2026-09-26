@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.opencomputer/
+opencomputer/.env.local
+.env.local
+*.log
+*.tsbuildinfo
+

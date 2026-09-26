@@ -1,0 +1,11 @@
+schema = 1
+
+[template]
+name = "OpenRouter Jev Router"
+description = "Let Jev Router choose the best downstream model and reasoning effort for each request."
+documentation = "https://github.com/diggerhq/opencomputer-example-jevrouter"
+default_project_name = "jev-router-example"
+
+[template.first_run]
+agent = "jev-router"
+prompt = "Design a zero-downtime migration from a PostgreSQL monolith to event-driven services. Include invariants, event schemas, dual-write failure modes, backfill strategy, rollback gates, observability, and a phased rollout. Critique your own plan and revise its weakest assumption."

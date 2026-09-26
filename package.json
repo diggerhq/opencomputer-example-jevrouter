@@ -1,0 +1,23 @@
+{
+  "name": "opencomputer-example-jev-router",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "opencomputer": "opencomputer",
+    "deploy": "opencomputer deploy",
+    "deploy:watch": "opencomputer deploy --watch",
+    "session": "opencomputer session",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencomputer/agent": "^0.7.5"
+  },
+  "devDependencies": {
+    "@opencomputer/cli": "^0.7.10",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
